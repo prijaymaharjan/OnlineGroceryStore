@@ -70,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- login -->
 
 		<div class="w3_login">
-			<h3>Sign In & Sign Up</h3>
+			<h3>Sign Up & Sign In Membership</h3>
 			<div class="w3_login_module">
 				<div class="module form-module">
                     <div class="toggle"><i class="fa fa-times fa-pencil"></i>
@@ -95,7 +95,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <span class="text-danger"><?=$msg?></span>
                         <form action="" method="post">
                             <input type="text" name="Name" placeholder="name" required title="must be enter name">
-                            <input type="password" name="Mobile" placeholder="Mobile No" required pattern="[0-9]{10}" title="must be 10 charecter">
+                            <input type="text" name="Mobile" placeholder="Mobile No" required pattern="[0-9]{10}" title="must be 10 charecter">
                             <input type="text" name="Address" placeholder=" Address" required>
 
                             <input type="text" name="City" placeholder="City" required value="Visnager" readonly style="text-align:center:">
@@ -103,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <input type="radio" name="Gn" placeholder="" required>Female
 
                             <input type="text" name="Username" placeholder="Username" required>
-                            <input type="password" name="Password" placeholder="Password" required pattern="[a-z0-9]{6}" title="password must be 8 charecter">
+                            <input type="password" name="Password" placeholder="Password" required  title="password must be 8 charecter">
                             <input type="submit" value="Register" name="submit">
                         </form>
                     </div>
